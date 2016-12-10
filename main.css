@@ -31,5 +31,5 @@ textarea {
 textarea, textarea * {
   margin-bottom: 1.5vmax;
   overflow: visible;
-  font-size: 1.5vmax;
+  font-size: 16px;
 }
