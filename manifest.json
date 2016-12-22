@@ -1,0 +1,22 @@
+{
+  "app": {
+    "background": {
+      "scripts": [ "background.js" ]
+    }
+  },
+  "description": "Personal Text Editor",
+  "icons": {
+    "128": "assets/icon-128.png"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh5JrxHQapqnbBo33i/llSbT2JfFk4E6HVYeJESxf8I8UHFEiqvq42a3toUrIDtJdMEfC1nlvdRnKH66976UpgFsZEuui0Z4sp84pbpqtAqYxKcDfgrZLesLYr63Qj+yljJN9qlDYiwOfaIJuMdZUZU8jcB1pVJfKASbBmfJwPZuTZMEfI2Ul3annmisFdQutSlfmTJFZs2O6PwJRhxFvmyBAYia40u41B7dbb/b7SMU+zZSBFMPeX93LVBkKtzfzANUPMlzbpAqt6ygcTADuMeqeNMs7j/1ZYl4qwCAwN65UBZduNpacfw1fWGWI5qIzZ5sfHUarEbTPtmqnjgGgfwIDAQAB",
+  "manifest_version": 2,
+  "minimum_chrome_version": "38",
+  "name": "Writer",
+  "offline_enabled": true,
+  "permissions": [ "https://www.google-analytics.com/", "storage", "unlimitedStorage", {
+    "fileSystem": [ "write", "retainEntries", "directory" ]
+  } ],
+  "short_name": "Notepad",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "5.3"
+}
