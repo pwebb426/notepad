@@ -306,6 +306,15 @@ html {
   font-size: 24px;
   color: rgb(255, 255, 255);
 }
+.mdi-navigation-menu {
+  color: rgb(255, 255, 255);
+}
+.mdi-navigation-menu:hover {
+  cursor: pointer;
+}
+.drag-target {
+  width: 20px;
+}
 .nav-wrapper .brand-logo {
   font-size: 1rem;
   color: rgba(255, 255, 255, .87);
