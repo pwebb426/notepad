@@ -366,17 +366,19 @@ html {
 }
 #full-toolbar {
   width: 100%;
-  min-height: 35px;
+  height: 35px;
   background-color: #f5f5f5;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
   position: fixed;
   z-index: 100;
-  overflow: auto;
 }
 .ql-container-toolbar {
+  position: absolute;
   padding: 0;
   top: 0;
-  position: absolute;
+  width: 708px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #dropdown1 li a {
   color: #444;
@@ -688,4 +690,4 @@ a {
   display: inline-block;
   white-space: nowrap;
   word-wrap: normal;
-                     
+}
