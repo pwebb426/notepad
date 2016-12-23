@@ -371,7 +371,6 @@ html {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
   position: fixed;
   z-index: 100;
-  overflow: scroll;
 }
 .ql-container-toolbar {
   padding: 0;
@@ -690,5 +689,4 @@ a {
   display: inline-block;
   white-space: nowrap;
   word-wrap: normal;
-  direction: ltr;
-}
+                     
